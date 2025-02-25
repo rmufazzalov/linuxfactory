@@ -1,0 +1,6 @@
+#SPDX-License-Identifier: MIT-0
+---
+# tasks file for hostname
+- name: set hostname
+  hostname:
+    name: lf-vm
