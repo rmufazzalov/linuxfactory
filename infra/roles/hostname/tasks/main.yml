@@ -3,4 +3,4 @@
 # tasks file for hostname
 - name: set hostname
   hostname:
-    name: lf-vm
+    name: "{{ dns_name }}"
